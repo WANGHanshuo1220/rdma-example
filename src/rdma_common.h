@@ -46,7 +46,8 @@
 /* Capacity of the completion queue (CQ) */
 #define CQ_CAPACITY (16)
 /* MAX SGE capacity */
-#define MAX_SGE (2)
+#define MAX_SEND_SGE (6)
+#define MAX_RECV_SGE (1)
 /* MAX work requests */
 #define MAX_WR (8)
 /* Default port where the RDMA server is listening */
